@@ -1,0 +1,302 @@
+.ball{
+	width: 30em;
+	height: 30em;
+	margin-left: 30%;
+	margin-top: 2em;
+	position: relative;
+}
+.question{
+	height: 3em;
+	width: 30em;
+	position: absolute;
+	margin-top: 38em;
+	margin-left: -32em;
+	
+}
+.answer{
+	position: absolute;
+	margin-left: 35em;
+	margin-top: 13em;
+	font-size: 1.1em;
+	color: white;
+	z-index: 1;
+}
+
+
+.animation {
+    -webkit-animation: 0.1s tremor ease-out infinite;  
+    animation: 0.1s tremor ease-out infinite;    
+}
+@-webkit-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        top:-1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        top: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-moz-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-ms-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-o-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@media (max-width:3000px){
+	
+		body{
+		font-size: 30px;
+	}
+
+}
+@media (max-width:2048px){
+	
+		body{
+		font-size: 21px;
+	}
+	.question{
+		height: 5em;
+		width: 50em;
+		margin-top: 52em;
+		margin-left: -40em;
+		
+	}
+	.answer{
+		margin-left: 32em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:1526px){
+	
+	body{
+		font-size: 19px;
+	}
+	.question{
+		height: 4em;
+		width: 40em;
+		margin-top: 47em;
+		margin-left: -40em;
+	}
+	.answer{
+		margin-left: 32em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:1440px){
+	
+		body{
+		font-size: 15px;
+	}
+	.question{
+	height: 3em;
+	width: 30em;
+	
+	margin-top: 38em;
+	margin-left: -32em;
+	
+}
+.answer{
+
+	margin-left: 35em;
+	margin-top: 13em;
+	
+}
+}
+
+@media (max-width:1260px){
+	.question{
+		margin-top: 38em;
+		margin-left: -32em;
+		
+	}
+	.answer{
+		margin-left: 33em;
+		margin-top: 13em;
+	}
+		body{
+		font-size: 15px;
+	}
+
+}
+@media (max-width:1200px){
+	
+		body{
+		font-size: 13px;
+	}
+	.question{
+		margin-top: 33em;
+		margin-left: -30em;
+		
+	}
+	.answer{
+		margin-left: 33em;
+		margin-top: 13em;
+	}
+}
+
+@media (max-width:992px){
+		
+		body{
+		font-size: 11px;
+	}
+	.question{
+		margin-top: 27em;
+		margin-left: -27em;
+		height: 2.5em;
+	}
+	.answer{
+		margin-left: 32.5em;
+		margin-top: 13em;
+	}
+}
+@media (max-width:767px){
+	
+		body{
+		font-size: 8.2px;
+	}
+	.question{
+		margin-top: 20em;
+		margin-left: -22em;
+		height: 2em;
+		width: 25em;
+	}
+	.answer{
+		margin-left: 36em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:700px){
+	
+		body{
+		font-size: 8.2px;
+	}
+	.question{
+		margin-top: 20em;
+		margin-left: -22em;
+		height: 2em;
+		width: 25em;
+	}
+	.answer{
+		margin-left: 32.5em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:650px){
+	
+		body{
+		font-size: 6px;
+	}
+	.question{
+		margin-top: 15em;
+		margin-left: -16.5em;
+		height: 1.5em;
+		width: 20em;
+	}
+	.answer{
+		margin-left: 34.5em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:500px){
+	
+		body{
+		font-size: 5px;
+	}
+	.question{
+		margin-top: 12.5em;
+		margin-left: -15em;
+		height: 1.2em;
+		width: 18em;
+	}
+	.answer{
+		margin-left: 34em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:430px){
+	
+		body{
+		font-size: 4px;
+	}
+	.question{
+		margin-top: 10em;
+		margin-left: -11em;
+		height: 0.8em;
+		width: 13em;
+	}
+	.answer{
+		margin-left: 32.5em;
+		margin-top: 13em;
+		
+	}
+}
+@media (max-width:300px){
+	
+		body{
+		font-size: 3px;
+	}
+	.question{
+		margin-top: 7.5em;
+		margin-left: -8.5em;
+		height: 0.5em;
+		width: 10em;
+	}
+	.answer{
+		margin-left: 33.5em;
+		margin-top: 13em;
+		
+	}
+}
